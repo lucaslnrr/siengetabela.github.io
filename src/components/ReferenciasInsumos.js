@@ -140,7 +140,7 @@ function CSVFilter() {
   const [q, setQ] = useState("");
   const [loading, setLoading] = useState(true);
   const [err, setErr] = useState("");
-  const CSV_URL = "/insumos.csv"; // put your file under public/insumos.csv
+  const CSV_URL = "insumos.csv"; // put your file under public/insumos.csv
 
   useEffect(() => {
     let alive = true;
