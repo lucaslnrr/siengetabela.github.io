@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import ReferenciasInsumos from './components/ReferenciasInsumos';
+// src/index.js (React 18+)
+import React from "react";
+import { createRoot } from "react-dom/client";
+import "./index.css";
+import ReferenciasInsumos from "./components/ReferenciasInsumos";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
+const rootEl = document.getElementById("root");
+createRoot(rootEl).render(
   <React.StrictMode>
     <ReferenciasInsumos />
   </React.StrictMode>
