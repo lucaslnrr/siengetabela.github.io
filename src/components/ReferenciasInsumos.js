@@ -388,8 +388,15 @@ function CSVFilter() {
       <p className="mt-2 text-slate-700">
         Digite para filtrar por qualquer coluna do <code>insumos.csv</code>
       </p>
-<p className="mt-2 text-slate-700">
-       Após consulta, verificar se a descrição do insumo é pertinente ao GRUPO DE INSUMO e PLANO FINANCEIRO</p>
+  <div>
+                <p className="font-semibold text-slate-900">Dica rápida</p>
+                <p className="text-slate-700 mt-1">
+                  Sempre que houver dúvida, priorize a fidelidade do plano financeiro ao evento econômico.
+                </p>
+                <p className="text-slate-700 mt-1">
+                  Após consulta, verificar se a descrição do insumo é pertinente ao GRUPO DE INSUMO e PLANO FINANCEIRO
+                </p>
+              </div>
       <div className="mt-4 flex flex-col gap-3 md:flex-row md:items-center">
         <input
           type="text"
